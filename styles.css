@@ -1,0 +1,70 @@
+/* add your CSS here */
+
+
+#main {
+  border-style: ridge;
+  box-shadow: 10px 10px 5px #888888;
+  border-left-width: 10px;
+  border-color: #85a428;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 300px;
+  padding: 10px;
+  background: linear-gradient(#6b9023, #ff9900);
+  }
+body {
+  font-family: 'helvetica','Open Sans', 'sans-serif';
+}
+.name {
+  font-family: 'droid serif';
+  letter-spacing: 3px;
+  font-size: 35px;
+  color: #fafad2;
+  text-align: center;
+  border: ridge 5px;
+  border-color: #85a428;
+  border-top-right-radius: 8px;
+  }
+.image {
+  width: 300px;
+  margin: auto;
+  border: ridge;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 5px 0px 10px 0px;
+  border-color: #85a428;
+  }
+.fact {
+  font-family: helvetica, sans-serif;
+  width: 280px;
+  text-align: justify;
+  font-size: 15px;
+  font-style: italic;
+  }
+.info {
+  padding: 5px;
+  border-style: ridge;
+  border-top-right-radius: 8px;
+  background-image: url(https://i.pinimg.com/564x/aa/15/c1/aa15c1d7a681d9d0013decd6acbe11f0.jpg);
+  background-position: right;
+  border-color: #85a428;
+  }
+.list {
+  list-style-type: none;
+  text-align: left;
+  font-size: 15px;
+  width: 290px;
+  margin: 0;
+  padding: 0;
+}
+.label {
+  line-height: 1.5;
+  font-weight: bold;
+  }
+
+.description {
+  font-family: helvetica, sans-serif;
+  width: 280px;
+  text-align: justify;
+  font-size: 15px;
+}
