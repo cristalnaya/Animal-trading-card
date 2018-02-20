@@ -2,7 +2,7 @@
 
 #main {
   border-style: ridge;
-  box-shadow: 10px 10px 5px #888888;
+  box-shadow: 10px 10px 5px #888;
   border-left-width: 10px;
   border-color: #85a428;
   border-top-right-radius: 8px;
@@ -12,9 +12,11 @@
   background: linear-gradient(#6b9023, #ff9900);
   margin: 0 auto;
 }
+
 body {
   font-family: "helvetica", "Open Sans", "sans-serif";
 }
+
 .name {
   font-family: "droid serif";
   letter-spacing: 3px;
@@ -27,15 +29,17 @@ body {
   width: 300px;
   margin: 5px;
 }
+
 .image {
   width: 300px;
   margin: auto;
   border: ridge;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
-  border-color: #85a428;
+  border: #85a428;
   margin: 5px;
 }
+
 .fact {
   font-family: helvetica, sans-serif;
   width: 300px;
@@ -43,6 +47,7 @@ body {
   font-size: 15px;
   font-style: italic;
 }
+
 .info {
   padding: 5px;
   border-style: ridge;
@@ -54,6 +59,7 @@ body {
   margin: 5px;
   margin-right: 5px;
 }
+
 .list {
   list-style-type: none;
   text-align: left;
@@ -62,6 +68,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .label {
   line-height: 1.5;
   font-weight: bold;
